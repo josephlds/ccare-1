@@ -1,0 +1,103 @@
+import Image from "next/image";
+
+const logos = [
+  "/AsseenIn/asseenin.svg",
+  "/AsseenIn/Comopolitan.svg",
+  "/AsseenIn/InStyle.svg",
+  "/AsseenIn/et.svg",
+  "/AsseenIn/pinkvilla.svg",
+  "/AsseenIn/elle.svg",
+  "/AsseenIn/usweekly.svg",
+  "/AsseenIn/asseenin.svg",
+  "/AsseenIn/Comopolitan.svg",
+  "/AsseenIn/InStyle.svg",
+  "/AsseenIn/et.svg",
+  "/AsseenIn/pinkvilla.svg",
+  "/AsseenIn/elle.svg",
+  "/AsseenIn/usweekly.svg",
+  "/AsseenIn/asseenin.svg",
+  "/AsseenIn/Comopolitan.svg",
+  "/AsseenIn/InStyle.svg",
+  "/AsseenIn/et.svg",
+  "/AsseenIn/pinkvilla.svg",
+  "/AsseenIn/elle.svg",
+  "/AsseenIn/usweekly.svg",
+  "/AsseenIn/asseenin.svg",
+  "/AsseenIn/Comopolitan.svg",
+  "/AsseenIn/InStyle.svg",
+  "/AsseenIn/et.svg",
+  "/AsseenIn/pinkvilla.svg",
+  "/AsseenIn/elle.svg",
+  "/AsseenIn/usweekly.svg",
+  "/AsseenIn/asseenin.svg",
+  "/AsseenIn/Comopolitan.svg",
+  "/AsseenIn/InStyle.svg",
+  "/AsseenIn/et.svg",
+  "/AsseenIn/pinkvilla.svg",
+  "/AsseenIn/elle.svg",
+  "/AsseenIn/usweekly.svg",
+  "/AsseenIn/asseenin.svg",
+  "/AsseenIn/Comopolitan.svg",
+  "/AsseenIn/InStyle.svg",
+  "/AsseenIn/et.svg",
+  "/AsseenIn/pinkvilla.svg",
+  "/AsseenIn/elle.svg",
+  "/AsseenIn/usweekly.svg",
+  "/AsseenIn/asseenin.svg",
+  "/AsseenIn/Comopolitan.svg",
+  "/AsseenIn/InStyle.svg",
+  "/AsseenIn/et.svg",
+  "/AsseenIn/pinkvilla.svg",
+  "/AsseenIn/elle.svg",
+  "/AsseenIn/usweekly.svg",
+  "/AsseenIn/asseenin.svg",
+  "/AsseenIn/Comopolitan.svg",
+  "/AsseenIn/InStyle.svg",
+  "/AsseenIn/et.svg",
+  "/AsseenIn/pinkvilla.svg",
+  "/AsseenIn/elle.svg",
+  "/AsseenIn/usweekly.svg",
+  "/AsseenIn/asseenin.svg",
+  "/AsseenIn/Comopolitan.svg",
+  "/AsseenIn/InStyle.svg",
+  "/AsseenIn/et.svg",
+  "/AsseenIn/pinkvilla.svg",
+  "/AsseenIn/elle.svg",
+  "/AsseenIn/usweekly.svg",
+  "/AsseenIn/asseenin.svg",
+  "/AsseenIn/Comopolitan.svg",
+  "/AsseenIn/InStyle.svg",
+  "/AsseenIn/et.svg",
+  "/AsseenIn/pinkvilla.svg",
+  "/AsseenIn/elle.svg",
+  "/AsseenIn/usweekly.svg",
+  "/AsseenIn/asseenin.svg",
+  "/AsseenIn/Comopolitan.svg",
+  "/AsseenIn/InStyle.svg",
+  "/AsseenIn/et.svg",
+  "/AsseenIn/pinkvilla.svg",
+  "/AsseenIn/elle.svg",
+  "/AsseenIn/usweekly.svg",
+  "/AsseenIn/asseenin.svg",
+  "/AsseenIn/Comopolitan.svg",
+  "/AsseenIn/InStyle.svg",
+  "/AsseenIn/et.svg",
+  "/AsseenIn/pinkvilla.svg",
+  "/AsseenIn/elle.svg",
+  "/AsseenIn/usweekly.svg",
+];
+
+const LogoSlider = () => {
+  return (
+    <div className="logos">
+      <h1 className="heading text-center mb-28">AS SEEN ON:</h1>
+      <div className="logos-slide">
+        {logos.map((logo, index) => (
+          <Image src={logo} width={300} height={200} alt="Logo" key={index} />
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default LogoSlider;

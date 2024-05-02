@@ -1,0 +1,54 @@
+/* Font Import with Optional Loading Strategy */
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+
+/* Tailwind CSS Integration */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  overflow-x: hidden;
+  
+}
+
+h1 {
+  font-family: "DM Serif Display", serif; /* Specify the font family */
+  color: #1B1B1B;
+}
+
+p {
+
+  color: #363636;
+}
+
+
+.heading {
+    @apply text-5xl leading-snug
+}
+
+
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding: 60px 0;
+  white-space: nowrap;
+  position: relative;
+  display: inline-block;
+}
+
+.logos-slide {
+  display: flex;
+  animation: 50s slide infinite linear;
+}
+
+.logos-slide  {
+  margin: 0 40px;
+}
